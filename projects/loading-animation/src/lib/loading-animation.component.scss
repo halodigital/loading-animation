@@ -1,0 +1,39 @@
+@import 'assets/styles/variables.scss';
+
+
+:host {
+
+    display: flex;
+    justify-content: space-between;
+
+    .halo-loading-animation {
+        margin: 5px;
+        background-color: $aquaColor;
+        border-radius: 50%;
+        float: left;
+        transform: scale(0);
+        box-shadow: 0 0 4px rgba($blackColor, 0.28);
+
+        &.halo-loading-animation-white {
+            background: transparent;
+            border-color: $whiteColor;
+        }
+
+        &:nth-child(1) {
+            animation: dotAnimation 1000ms ease infinite 0ms;
+        }
+
+        &:nth-child(2) {
+            animation: dotAnimation 1000ms ease infinite 250ms;
+        }
+
+        &:nth-child(3) {
+            animation: dotAnimation 1000ms ease infinite 500ms;
+        }
+
+        &:nth-child(4) {
+            animation: dotAnimation 1000ms ease infinite 750ms;
+        }
+    }
+
+}

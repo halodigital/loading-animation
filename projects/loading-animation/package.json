@@ -1,0 +1,22 @@
+{
+    "name": "@halodigital/loading-animation",
+    "version": "1.0.0",
+    "peerDependencies": {
+        "@angular/common": "^10.0.14",
+        "@angular/core": "^10.0.14"
+    },
+    "dependencies": {
+        "tslib": "^2.0.0"
+    },
+    "description": "Halo-Digital Pane",
+    "keywords": [
+        "Halo-Digital",
+        "halo-digital",
+        "halodigital",
+        "loading-animation",
+        "loading animation",
+        "loading"
+    ],
+    "author": "Halo-Digital",
+    "license": "MIT"
+}
